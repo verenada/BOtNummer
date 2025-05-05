@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: telegram-hlr-bot
+    env: python
+    buildCommand: ""
+    startCommand: bash start.sh
+    envVars:
+      - key: TELEGRAM_TOKEN
+        value: AAGdDN1cUlGaF950vxsOwjXgvlLeWO_yYAs
+      - key: IPQS_API_KEY
+        value: ZaiFOd4cutnvHHUH1yltUgVJimhhX0Lk
